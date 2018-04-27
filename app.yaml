@@ -1,0 +1,18 @@
+application: sidaidike
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /favicon.png
+  static_files: favicon.png
+  upload: favicon.png
+
+- url: /
+  static_files: index.html
+  upload: index.html
+
+- url: /map.png
+  static_files: map.png
+  upload: map.png
